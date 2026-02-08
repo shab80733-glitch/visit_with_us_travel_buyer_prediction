@@ -1,1 +1,1 @@
-# visit-with-us-buyer-prediction
+# visit-with-us-travel-buyer-prediction
