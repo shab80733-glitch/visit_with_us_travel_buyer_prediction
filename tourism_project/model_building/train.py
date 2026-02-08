@@ -58,7 +58,7 @@ xgb_model = xgb.XGBClassifier(random_state=42, scale_pos_weight=class_weight, ev
 
 # Define hyperparameter grid
 param_grid = {
-    'xgbclassifier__n_estimators': [50, 75, 100, 125, 150]
+    'xgbclassifier__n_estimators': [50, 75, 100, 125, 150],
     'xgbclassifier__max_depth': [2, 3, 4],
     'xgbclassifier__colsample_bytree': [0.4, 0.5, 0.6],
     'xgbclassifier__colsample_bylevel': [0.4, 0.5, 0.6],
